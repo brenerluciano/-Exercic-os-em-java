@@ -10,5 +10,7 @@ public class Exercicío10 {
         double celsius = (fahrenheit - 32) * 5 / 9;
 
         System.out.println("A temperatura em Celsius é: " + celsius + "°C");
+
+        scanner.close();
     }
 }
